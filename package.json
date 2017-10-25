@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/pbcgithub/js-starter-kit/issues"
   },
-  "homepage": "https://github.com/pbcgithub/js-starter-kit#readme"
+  "homepage": "https://github.com/pbcgithub/js-starter-kit#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
 }

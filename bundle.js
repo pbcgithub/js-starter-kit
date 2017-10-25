@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('index.js file');
+console.log("index.js file");
 
 
 /***/ })

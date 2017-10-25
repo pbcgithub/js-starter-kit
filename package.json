@@ -4,8 +4,12 @@
   "description": "A starter kit for javascript projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "test": "webpack"
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pbcgithub/js-starter-kit.git"
@@ -25,6 +29,7 @@
     "eslint": "^4.9.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.4.0",
+    "pre-commit": "^1.2.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.3"
   }
